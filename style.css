@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+form {
+    margin-top: 230px;
+}
+
+label {
+    color: white;
+    margin-top: 15px;
+}
+
+form input {
+    border: none;
+    margin-right: 15px;
+    padding: 0.3rem;
+}
+
+input {
+    width: 80%;
+}
+
+button {
+    padding: 0.3rem;
+    border: none;
+    background: #28b54d;
+    color: white;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: white;
+    color: #28b54d;
+    cursor: pointer;
+}
+
+#error {
+    color: white;
+    background: rgb(250, 99, 99);
+}
+
+.opacity {
+    font-size: 60px;
+    color: rgb(112, 112, 112);
+    position: absolute;
+    top: 240px;
+}
+
+.green {
+    font-size: 80px;
+    color: #28b54d;
+    margin-top: 265px;
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
