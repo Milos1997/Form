@@ -18,7 +18,7 @@ form.addEventListener('submit', function(e) {
     }
 
     if (password.value === 'password') {
-        messages.push('Password cannot be password')
+        messages.push('Password cannot be password');
     }
 
     if (messages.length > 0) {
